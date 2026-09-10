@@ -1,3 +1,7 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
 # ⚠️ **IMPORTANT**
 
 1. Read the [README.md](README.md)

@@ -43,13 +43,13 @@
 	},
 	"lint-staged": {
 		"package.json": [
-			"biome check --write --files-ignore-unknown=true"
+			"biome check --write --no-errors-on-unmatched --files-ignore-unknown=true"
 		],
 		"*.json": [
-			"biome check --write --files-ignore-unknown=true"
+			"biome check --write --no-errors-on-unmatched --files-ignore-unknown=true"
 		],
 		"src/**/*.{ts,js}": [
-			"biome check --write --files-ignore-unknown=true"
+			"biome check --write --no-errors-on-unmatched --files-ignore-unknown=true"
 		]
 	},
 	"author": "Alex Gavrilescu (https://github.com/MrLesk)",
